@@ -1,51 +1,16 @@
-# OSINT Scavenger Hunt Platform
-## Overview
+# React + Vite
 
-A web-based cybersecurity training platform developed as a Griffith University capstone project. The application provides interactive Open Source Intelligence (OSINT) challenges designed to help users practice investigation techniques through progressively difficult scenarios.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## My Role
+Currently, two official plugins are available:
 
-Business Analyst
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Responsibilities
+## React Compiler
 
-- Gathered and analysed business requirements
-- Created Software Requirements Specification (SRS)
-- Developed user stories and use cases
-- Facilitated communication between stakeholders and developers
-- Assisted with sprint planning and requirement validation
-- Supported system testing and documentation
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Features
+## Expanding the ESLint configuration
 
-- Interactive OSINT challenges
-- Progressive difficulty levels
-- Score tracking
-- Answer validation
-- Responsive interface
-
-## Tech Stack
-
-### Frontend
-
-- React
-- JavaScript
-- HTML
-- CSS
-
-### Backend
-
-- Flask
-- Python
-
-### Development
-
-- Git
-- GitHub
-- Agile
-
-## Team Project
-
-This application was developed by a five-member team as part of Griffith University's Industry Capstone Project.
-
-My primary contribution focused on Business Analysis and project documentation.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
